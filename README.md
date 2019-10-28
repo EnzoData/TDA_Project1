@@ -27,7 +27,6 @@ In the following folder link, the code used to classify letters can be found
 
 
 ## Experiments
--shane-Enzo-
 The folder titled Classifications, has each scanning method that we conducted to classify each letter through there bottleneck distance. The bottleneck distance between two diagrams is the cost of the optimal matching between points of the two diagrams. Note that all the diagonal points are included in the persistence diagrams when computing the optimal matching. When a vector is given for dimension, then maximum among bottleneck distances using each element in dimension is returned.
 #### [Classifications](https://github.com/EnzoData/TDA_Project1/tree/master/Classifications)
 #### [Bottleneck Distance](https://rdrr.io/cran/TDA/man/bottleneck.html)
