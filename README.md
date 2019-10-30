@@ -27,8 +27,10 @@ In the following folder link, the code used to classify letters can be found
 
 
 ## Experiments
+In the folder link below, the experiments code can be found
 
--Shane-
+#### [Experiment.ipynb](https//github.com/EnzoData/TDA_Project1/tree/master/Experiment)
+
 
 ## Discussion/Criticism
 From the algorithm produced and the results obtained through experiments, we can see that classification was sucessful on the original 26 letters. Our objective of classification was achieved by using left to right scan, right to left scan, top to bottom with each letter rotated 90 degrees scan, bottom to top with each letter rotated 90 degrees scan, and 5 density scans. We see that when we introduce noise, our classifier isn't the best. The classifier would improve if we included the regular persistent homology diagram up to dimension 1, and an L_1 regularization term to our multinomial regression. 
