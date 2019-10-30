@@ -29,7 +29,7 @@ In the following folder link, the code used to classify letters can be found
 ## Experiments
 In the folder link below, the experiments code can be found
 
-#### [Experiment.ipynb](https//github.com/EnzoData/TDA_Project1/tree/master/Experiment)
+#### [Experiment](https://github.com/EnzoData/TDA_Project1/tree/master/Experiment)
 
 
 ## Discussion/Criticism
