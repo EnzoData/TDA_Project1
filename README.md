@@ -32,7 +32,7 @@ In the folder link below, the experiments code can be found
 
 
 ## Discussion/Criticism
-From the algorithm produced and the results obtained through experiments, we can see that classification was sucessful on the original 26 letters. Our objective of classification was achieved by using left to right scan, right to left scan, probing from left corner scan, diagonal scan, and 5 density scans. We see that when we introduce noise, our classifier isn't the best. The classifier would improve if we included the regular persistent homology diagram up to dimension 1, and an L_1 regularization term to our multinomial regression. 
+From the algorithm produced and the results obtained through experiments, we can see that classification was sucessful on the original 26 letters. Our objective of classification was achieved by using left to right scan, right to left scan, probing from left corner scan, diagonal scan, and 5 density scans. The decision to only include 4 scans was due to.....We see that when we introduce noise, our classifier isn't the best. The classifier would improve if we included the regular persistent homology diagram up to dimension 1, and an L_1 regularization term to our multinomial regression. 
 
 ## Literature Review
 -Pratik and sri Nikhil please complete-
