@@ -35,8 +35,22 @@ In the folder link below, the experiments code can be found
 From the algorithm produced and the results obtained through experiments, we can see that classification was sucessful on the original 26 letters. Our objective of classification was achieved by using left to right scan, right to left scan, probing from left corner scan, diagonal scan, and 5 density scans. The decision to only include 4 scans was due to.....We see that when we introduce noise, our classifier isn't the best. The classifier would improve if we included the regular persistent homology diagram up to dimension 1, and an L_1 regularization term to our multinomial regression. 
 
 ## Literature Review
--Pratik and sri Nikhil please complete-
+This section is a literature review of various studies related to letter classification approaches; therefore,
+this section elucidates some of the research directions observed in this regard.
 
+### English Letter Classification Using Bayesian Decision Theory by Mujtaba Husnain and M. Shahid Naweed (European Journal of Scientific Research Vol.34(No.2):196-202 · July 2009).
+This paper uses Bayesian decision Theory (BDT), one of the statistical techniques for pattern classification, to identify each of the large number of black-and-white rectangular pixel displays as one of the 26 capital letters in the English alphabet. The character images were based on 20 different fonts and each letter within 20 fonts was randomly distorted to produce a file of 20,000 unique instances.
+
+
+### Zoning methods for handwritten character recognition by D.Impedovo and G.Pirlo (Journal Pattern Recognition archive Volume 47 Issue 3, March, 2014)
+Through the analysis of the relevant literature in the field, the most valuable zoning methods are presented in terms of both topologies and membership functions. Throughout the paper, diverse zoning topologies are presented based on both static and adaptive approaches. Concerning static approaches, uniform and non-uniform zoning strategies are discussed. When adaptive zonings are considered, manual and automatic strategies for optimal zoning design are illustrated as well as the most appropriate zoning representation techniques.
+
+
+### Handwriting prediction based character recognition using recurrent neural network by Shun Nishide, Hiroshi G. Okuno, Tetsuya Ogata and Jun Tani(Proceedings of the IEEE International Conference on Systems, Man and Cybernetics, Anchorage, Alaska, USA, October 9-12, 2011)
+The model is first trained using image sequences acquired while writing text. The image features of sequences are self-organized from the images using Self-Organizing Map. The feature sequences are used to train a neuro-dynamics learning model. For recognition, the text image is input into the model for predicting the handwriting sequence and recognition of the text.
+
+### Towards Written Text Recognition Based on Handwriting Experiences Using a Recurrent Neural Network by Shun Nishide, Hiroshi G. Okuno, Tetsuya Ogata and Jun Tani( Advanced Robotics 25(17):2173-2187 · January 2011 )
+The approach is based on findings in the brain sciences field. When recognizing written text, humans are said to unintentionally trace its handwriting sequence in their brains. Likewise, they tried to create a model that predicts a handwriting sequence from a static image of written text. The predicted handwriting sequence would be used to recognize the text. As the first step towards the goal, we created a model using neural networks, and evaluated the learning and recognition capability of the model using single Japanese characters. First, the handwriting image sequences for training are self-organized into image features using a self-organizing map. The self-organized image features are used to train the neuro-dynamics learning model.
 
 # Authors
 
